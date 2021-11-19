@@ -1,0 +1,38 @@
+@media screen and (max-width:1000px) {
+    nav{
+        display: flex;
+        flex-direction: column;
+        height: 14vh;
+    }
+    nav ul{
+        justify-content: center;
+        margin: 1vh 0;
+    }
+    .search{
+    display: flex;
+    align-items: center;
+    padding: 0 1vw;
+    justify-content: center;
+    margin-bottom: 3vh;
+    }
+    .slider{
+        width: 84vw;
+        margin-left: 8vw;
+    }
+    .slider img{
+        margin-top: 3vh;
+    }
+    .mensfootwear,.clothes{
+        height: 180px;
+    }
+    .flex_all_center{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: black;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 0 2vw;
+    }
+}

@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Montagu+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #1d6ded;
+    font-family: 'Ubuntu', sans-serif;
+}
+nav ul{
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 0vw 1vw;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.container{
+    min-height: 80vh;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1vh;
+}
+nav{
+    display: flex;
+}
+.logo img{
+    width: 88px;
+    padding: 0 20px;
+}
+.search{
+    display: flex;
+    align-items: center;
+    padding: 0 1vw;
+}
+.search input{
+    width: 25vw;
+    height: 15px;
+}
+.search button{
+    margin: 0 1vw;
+    color: white;
+    background-color: #1d6ded;
+    padding: 0 1vw;
+    border: 2px solid white;
+    border-radius: 9px;
+}
+.cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cart h3{
+    color: white;
+    margin-left: 2vw;
+}
+.slider img{
+    width: 500px;
+    margin-top: 6vh;
+    margin-bottom: -3vh;
+    height: 200px;
+    overflow: hidden;
+}
+.slider{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5vh;
+}
+.mensfootwear h2{
+    margin-top: -5vh;
+    margin-bottom: 2vh;
+}
+.mensfootwear img{
+    width: 192px;
+    height: 100px;
+    margin: 20px 20px;
+}
+.mensfootwear{
+    display: flex;
+    justify-content: start;
+}
+.footw{
+    margin: 0 3vw;
+}
+.footwear h2{
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 2vw;
+}
+.croc{
+    margin: 0 3vw;
+}
+.pumas{
+    margin: 0 3vw;
+}
+.brand{
+    margin: 0 3vw;
+}
+.shoes,.blazers{
+     overflow: hidden;
+}
+.mensclothing h2{
+    margin-top: 4vh;
+    margin-bottom: 1vh;
+    margin-left: 2vw;
+    font-family: 'Ubuntu', sans-serif;
+}
+.clothes img{
+    width: 192px;
+    height: 100px;
+    margin: 20px 20px;
+}
+.clothes{
+    display: flex;
+}
+.clothes .clothing{
+    margin: 0 3vw;
+}
+footer{
+    height: 10vh;
+    background-color: black;
+    color: white;
+    font-family: 'Montagu Slab', serif;
+}
